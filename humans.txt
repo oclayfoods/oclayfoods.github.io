@@ -1,0 +1,21 @@
+/* TEAM */
+
+Company: OCLAY Pvt. Ltd.
+Website: https://oclay.co.in
+Email: info@oclay.co.in
+
+/* COMPANY */
+
+GSTIN: 36AAFCO0086L1Z7
+CIN: U46900TS2026PTC209231
+
+/* TECHNOLOGY */
+
+HTML5
+CSS3
+JavaScript
+
+/* COPYRIGHT */
+
+© 2026 OCLAY Pvt. Ltd.
+All Rights Reserved.

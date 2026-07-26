@@ -1,0 +1,426 @@
+/*==========================
+    PRODUCT PAGE
+==========================*/
+
+.product-hero{
+
+    padding:120px 0 80px;
+
+    background:
+    linear-gradient(135deg,#f8faf7,#eef8ef,#ffffff);
+
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:60px;
+}
+
+.product-image{
+    text-align:center;
+}
+
+.product-image img{
+    width:100%;
+    max-width:450px;
+    transition:.4s;
+    filter:drop-shadow(0 25px 40px rgba(0,0,0,.18));
+}
+
+.product-image img:hover{
+    transform:scale(1.05);
+}
+
+.product-content h1{
+    font-size:48px;
+    color:#174C3C;
+    margin:20px 0;
+}
+
+.product-content p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.product-content ul{
+    list-style:none;
+    margin-bottom:35px;
+}
+
+.product-content ul li{
+    margin:14px 0;
+    color:#333;
+    font-size:17px;
+}
+
+.product-content .btn{
+    display:inline-block;
+    padding:14px 34px;
+    background:#174C3C;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.product-content .btn:hover{
+    background:#0f3529;
+}
+/*==========================
+    FARM TO KITCHEN
+==========================*/
+
+.farm-section{
+    padding:90px 0;
+    background:#fff;
+}
+
+.farm-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:70px;
+}
+
+.farm-image{
+    text-align:center;
+}
+
+.farm-image img{
+    width:100%;
+    max-width:520px;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.farm-content h2{
+    font-size:40px;
+    color:#174C3C;
+    margin:18px 0;
+}
+
+.farm-content p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.farm-features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.farm-features div{
+    background:#f7f7f7;
+    padding:18px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.farm-features div:hover{
+    background:#174C3C;
+    color:#fff;
+    transform:translateY(-5px);
+}
+/*==========================
+    PRODUCT SPECIFICATIONS
+==========================*/
+
+.specification-section{
+    padding:90px 0;
+    background:#f8faf7;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:#174C3C;
+    margin-top:15px;
+}
+
+.spec-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.spec-card{
+    background:#fff;
+    padding:35px 25px;
+    text-align:center;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.spec-card:hover{
+    transform:translateY(-10px);
+}
+
+.spec-card h3{
+    color:#174C3C;
+    margin-bottom:15px;
+}
+
+.spec-card p{
+    color:#666;
+    line-height:1.7;
+}
+/*==========================
+    COOKING USES
+==========================*/
+
+.uses-section{
+    padding:90px 0;
+    background:#fff;
+}
+
+.uses-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.use-card{
+    background:#174C3C;
+    color:#fff;
+    padding:40px 20px;
+    text-align:center;
+    border-radius:18px;
+    font-size:22px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.use-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+/*==========================
+    RELATED PRODUCTS
+==========================*/
+
+.related-products{
+    padding:90px 0;
+    background:#f8faf7;
+}
+
+.related-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.related-card{
+    background:#fff;
+    text-align:center;
+    text-decoration:none;
+    color:#222;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.related-card:hover{
+    transform:translateY(-10px);
+}
+
+.related-card img{
+    width:180px;
+    height:auto;
+    margin-bottom:20px;
+}
+
+.related-card h3{
+    color:#174C3C;
+}
+/*==========================
+    PRODUCT CTA
+==========================*/
+
+.product-cta{
+    padding:90px 20px;
+    text-align:center;
+    background:#174C3C;
+    color:#fff;
+}
+
+.product-cta h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.product-cta p{
+    max-width:700px;
+    margin:0 auto 35px;
+    line-height:1.8;
+    color:#f3f3f3;
+}
+
+.product-cta .btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#fff;
+    color:#174C3C;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.product-cta .btn:hover{
+    transform:translateY(-5px);
+}
+/*==========================
+    BREADCRUMB
+==========================*/
+
+.breadcrumb{
+    padding:110px 0 20px;
+    background:#f8faf7;
+}
+
+.breadcrumb .container{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.breadcrumb a{
+    color:#174C3C;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.breadcrumb span{
+    color:#999;
+}
+
+.breadcrumb strong{
+    color:#444;
+}
+/*==========================
+    PRODUCT BADGES
+==========================*/
+
+.product-badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin:30px 0;
+}
+
+.product-badges span{
+    background:#eef7f1;
+    color:#174C3C;
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:15px;
+    font-weight:600;
+    border:1px solid #d8e9df;
+}
+/*==========================
+    PRODUCT ANIMATION
+==========================*/
+
+.product-image img{
+    animation: floatProduct 4s ease-in-out infinite;
+}
+
+@keyframes floatProduct{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+.spec-card,
+.related-card,
+.use-card{
+
+    cursor:pointer;
+
+}
+
+.spec-card:hover,
+.related-card:hover{
+
+    box-shadow:0 18px 45px rgba(0,0,0,.15);
+
+}
+/*==========================
+    PRODUCT NAVIGATION
+==========================*/
+
+.product-navigation{
+    padding:50px 0;
+    background:#fff;
+}
+
+.nav-products{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-btn{
+    text-decoration:none;
+    background:#174C3C;
+    color:#fff;
+    padding:14px 28px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-btn:hover{
+    background:#0f3529;
+    transform:translateY(-3px);
+}
+
+
+/* WhatsApp Floating Button */
+
+.whatsapp-float{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 65px;
+    height: 65px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+.whatsapp-float i{
+    font-size: 36px;
+    color: #fff;
+}
+
+.whatsapp-float:hover{
+    transform: scale(1.1);
+}
