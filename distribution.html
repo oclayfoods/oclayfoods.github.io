@@ -89,16 +89,7 @@
 
     <div class="container">
 
-        <span class="section-tag">DISTRIBUTOR APPLICATION</span>
-
-        <h2>Become an OCLAY Distributor</h2>
-
-        <p class="page-description">
-            Thank you for your interest in partnering with OCLAY.
-            We are expanding across Andhra Pradesh and Telangana and are
-            looking for trusted distributors, wholesalers, retailers and
-            business partners to grow with us.
-        </p>
+    
         <!-- ================= WHY CHOOSE OCLAY ================= -->
 
 <section class="why-oclay">
@@ -181,44 +172,92 @@
 
             <div class="distributor-form" id="application-form">
 
-                <form>
+                <form
+id="distributorForm"
+action="https://api.web3forms.com/submit"
+method="POST">
 
-                    <input type="text" placeholder="Full Name" required>
+<input type="hidden"
+name="access_key"
+value="c022eb2d-ea0b-4ee9-a58d-aa0f71a23600">
 
-                    <input type="text" placeholder="Company / Firm Name">
+<input type="hidden"
+name="subject"
+value="New OCLAY Distributor Application">
 
-                    <input type="tel" placeholder="Mobile Number" required>
+<input type="hidden"
+name="from_name"
+value="OCLAY Website">
 
-                    <input type="email" placeholder="Email Address">
+                    <input type="text"
+name="Full Name"
+placeholder="Full Name"
+required>
 
-                    <input type="text" placeholder="GST Number">
+                    <input
+type="text"
+id="companyName"
+name="Company Name"
+placeholder="Company / Firm Name"
+required>
 
-                    <input type="text" placeholder="State">
+                    <input
+type="tel"
+name="Mobile Number"
+placeholder="Mobile Number"
+required>
 
-                    <input type="text" placeholder="District / City">
+                    <input type="email"
+name="Email Address"
+placeholder="Email Address">
 
-                    <select>
+                    <input
+type="text"
+id="gstNumber"
+name="GST Number"
+placeholder="GST Number (Optional)"
+maxlength="15">
 
-                        <option>Business Type</option>
+                    <select
+id="state"
+name="State"
+required>
+    <option value="">Select State</option>
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Telangana">Telangana</option>
+</select>
 
-                        <option>Distributor</option>
+                    <select
+id="district"
+name="District"
+required>
+<option value="">Select District</option>
+</select>
 
-                        <option>Wholesaler</option>
 
-                        <option>Retailer</option>
+                    <select name="Business Type" required>
+    <option value="">Business Type</option>
+    <option value="Distributor">Distributor</option>
+    <option value="Wholesaler">Wholesaler</option>
+    <option value="Retailer">Retailer</option>
+    <option value="Supermarket">Supermarket</option>
+    <option value="Other">Other</option>
+</select>
 
-                        <option>Supermarket</option>
-
-                        <option>Other</option>
-
-                    </select>
-
-                    <textarea placeholder="Tell us about your business"></textarea>
+                    <textarea
+name="Business Details"
+placeholder="Tell us about your business"></textarea>
 
                     <button type="submit">
     Submit Application
 </button>
-
+<div id="successMessage" style="display:none;">
+    <h3>✅ Application Submitted Successfully!</h3>
+    <p>
+        Thank you for your interest in becoming an OCLAY Distributor.
+        Our team will contact you within 24–48 business hours.
+    </p>
+</div>
 <p class="form-note">
     Our business team will contact you within 24–48 business hours after reviewing your application.
 </p>
@@ -397,6 +436,8 @@
     <i class="fa-brands fa-whatsapp"></i>
 
 </a>
+
+<script src="js/script.js"></script>
 
 </body>
 

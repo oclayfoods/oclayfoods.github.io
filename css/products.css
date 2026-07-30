@@ -4,7 +4,7 @@
 
 .product-hero{
 
-    padding:120px 0 80px;
+    padding:50px 0;
 
     background:
     linear-gradient(135deg,#f8faf7,#eef8ef,#ffffff);
@@ -74,7 +74,7 @@
 ==========================*/
 
 .farm-section{
-    padding:90px 0;
+    padding:50px 0;
     background:#fff;
 }
 
@@ -132,7 +132,7 @@
 ==========================*/
 
 .specification-section{
-    padding:90px 0;
+    padding:50px 0;
     background:#f8faf7;
 }
 
@@ -180,7 +180,7 @@
 ==========================*/
 
 .uses-section{
-    padding:90px 0;
+    padding:50px 0;
     background:#fff;
 }
 
@@ -210,7 +210,7 @@
 ==========================*/
 
 .related-products{
-    padding:90px 0;
+    padding:50px 0;
     background:#f8faf7;
 }
 
@@ -249,7 +249,7 @@
 ==========================*/
 
 .product-cta{
-    padding:90px 20px;
+    padding:60px 20px;
     text-align:center;
     background:#174C3C;
     color:#fff;
@@ -286,7 +286,7 @@
 ==========================*/
 
 .breadcrumb{
-    padding:110px 0 20px;
+    padding:25px 0 15px;
     background:#f8faf7;
 }
 

@@ -1,0 +1,16 @@
+{
+  "name": "OCLAY Foods",
+  "short_name": "OCLAY",
+  "description": "Premium FMCG Brand offering high-quality spices, masalas and food products.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a7a33",
+  "icons": [
+    {
+      "src": "images/logo/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
