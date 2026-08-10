@@ -4,7 +4,7 @@ const form = document.getElementById("feedbackForm");
 
 // Product QR URL nundi automatic ga read chestundi
 const params = new URLSearchParams(window.location.search);
-const product = params.get("product") || "Unknown Product";
+const product = document.getElementById("productName")?.innerText.trim() || params.get("product") || "Unknown Product";
 
 form.addEventListener("submit", async (e) => {
 
@@ -39,7 +39,7 @@ form.addEventListener("submit", async (e) => {
 
         });
 
-        alert("🙏 Thank you for your valuable feedback.\n\nYour review helps us improve our products.");
+        window.location.href = "thanks.html";
 
         form.reset();
 
